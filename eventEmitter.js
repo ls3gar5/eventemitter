@@ -1,5 +1,5 @@
 import { EventEmitter } from 'events';
-//  Event System 
+//  1. EventEmitter Module
 class MyEmitters extends EventEmitter {
   constructor() {
     super();
