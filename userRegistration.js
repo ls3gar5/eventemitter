@@ -6,4 +6,4 @@ const registerUser = (username, email) => {
     eventEmitter.emit('userRegistered', { username, email });
 };
 
-export default registerUser;
+export default registerUser;    
